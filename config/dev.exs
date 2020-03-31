@@ -49,4 +49,4 @@ config :webbkoll,
   rate_limit_client: %{"scale" => 60_000, "limit" => 20},
   rate_limit_host: %{"scale" => 60_000, "limit" => 5},
   geoip_db_url: "https://github.com/heildampf/webbkoll/blob/master/GeoLite2-Country_20191224.tar.gz",
-  #geoip_db_md5_url: "https://github.com/heildampf/webbkoll/blob/master/GeoLite2-Country_20191224.tar.gz.md5"
+  geoip_db_md5_url: "https://github.com/heildampf/webbkoll/blob/master/GeoLite2-Country_20191224.tar.gz.md5"
