@@ -48,5 +48,5 @@ config :webbkoll,
   # See https://github.com/grempe/ex_rated
   rate_limit_client: %{"scale" => 60_000, "limit" => 20},
   rate_limit_host: %{"scale" => 60_000, "limit" => 5},
-  geoip_db_url: "https://web.archive.org/web/20191227182412/https://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz",
-  #geoip_db_md5_url: "https://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz.md5"
+  geoip_db_url: "https://github.com/heildampf/webbkoll/blob/master/GeoLite2-Country_20191224.tar.gz",
+  #geoip_db_md5_url: "https://github.com/heildampf/webbkoll/blob/master/GeoLite2-Country_20191224.tar.gz.md5"
